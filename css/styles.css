@@ -7,7 +7,7 @@ a {
 }
 
 body {
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
      color: #434455;
      background-color: #FFFFFF;
 }
@@ -36,6 +36,10 @@ body {
 
 .header-menu-link:hover {
 color:#404bbf
+}
+
+.header-menu-link:focus {
+   color: #404bbf;
 }
 
 .header-address-link {
@@ -117,6 +121,7 @@ background-color: #404BBF;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 
@@ -138,6 +143,9 @@ background-color: #404BBF;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+}
+.team-main-item {
+    background-color: #FFFFFF;
 }
 
 .working-main-title {
@@ -180,7 +188,7 @@ background-color: #404BBF;
 }
 
  .footer-logo-word {
-    color: #2e2f42;
+    color: #f4f4fd;
  }
 
  .footer-main-text {
