@@ -1,15 +1,39 @@
 ul {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+button {
+    cursor: pointer;
 }
 
 a {
     text-decoration: none;
+}
+p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+address {
+    font-style: normal;
+}
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 avto;
 }
 
 body {
     font-family: "Roboto", sans-serif;
      color: #434455;
      background-color: #FFFFFF;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-logo {
@@ -76,6 +100,10 @@ color:#404bbf;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        max-width: 496;
+        margin: 0 auto;
+        padding-top: 188px;
+        padding-bottom: 292px;
 }
 
 .hero-btn-main {
@@ -98,6 +126,8 @@ background-color: #404BBF;
 .hero-btn-main:focus {
     background-color: #404BBF;
 }
+.solution {}
+
 .solution-section-iink {
     
         font-weight: 500;
@@ -154,6 +184,7 @@ background-color: #404BBF;
 .team-main-item {
     background-color: #FFFFFF;
 }
+.working-main {}
 
 .working-main-title {
     
